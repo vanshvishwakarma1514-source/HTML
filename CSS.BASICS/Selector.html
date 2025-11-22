@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element selector */
+        div{
+            /* background-color: red; */
+        }
+        /* class selector */
+        .red{
+            background-color: red;
+        }
+        /* ID selector */
+        #green{
+            background-color: green;
+        }
+        /* child selector */
+        div >p{
+            color: blue;
+            background-color: violet;
+        }
+        /* descendant selector */
+            div p{
+                background-color: purple;
+            }
+
+            /* universal selector */
+           * {
+                margin: 0px;
+                padding: 0px;
+            }
+            /* pseudo selector */
+            a:visited{
+                color: orangered;
+            }
+            a:active{
+                background-color: blueviolet;
+            }
+            a:hover{
+                background-color: maroon;
+            }
+
+    </style>
+</head>
+<body>
+    <div class = " red">
+        I am a div
+        <article>
+            <p> i am a para inside div</p>
+            </article>
+    </div>
+    <div id = "green">
+        Another div
+    </div>
+
+    <a href="https://www.google.com">Go to google</a>
+</body>
+</html>
